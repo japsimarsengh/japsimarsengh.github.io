@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Choley</title>
+</head>
+<body>
+    <!-- making form using html -->
+    <h2>Form for Choley Lovers</h2>
+    <form action="backend.php">
+        
+        <div>
+            <label for="email">Email: &nbsp;</label><input type="email" name="myEmail" id="email">
+        </div> <br>
+        <div>
+            <label for="pswrd">Password: &nbsp;</label><input type="password" name="mypass" id="pswrd">
+        </div> <br>
+        <div><label for="name">Name: &nbsp;</label><input type="text" name="myName" id="name">
+        </div> <br>
+        <div>
+            <label for="phno">Phone Number: &nbsp;</label><input type="number" name="myPhone" id="phno">
+        </div> 
+        <div>
+            <label for="type">My Favourite Type of Choley are ?</label> <br>
+            <select name="type" id="type">
+                <option value="default" checked>Select</option>
+                <option value="white" >White</option>
+                <option value="Black">Black</option>
+            </select>
+        </div>
+        <br>
+        <div>
+        <div>
+            <p>Ki tusi choley khaande ho ?</p>
+            <input type="radio" name="a" id="yes"> <label for="yes">Hanjiii</label>
+            <br>
+            <input type="radio" name="a" id="no"><label for="no">Naah ji</label>
+        </div>
+            <p>Tuhanu Choley kide naal khaane zyada Pasand aa ?</p>
+            <div>
+                <input type="checkbox" name="mychecks" id="kul"> <label for="kul">Kulche</label>
+            </div>
+        </div>
+        <div> 
+            <input type="checkbox" name="mychecks" id="bhat"><label for="bhat">Bhature</label>
+        </div>
+        <div>
+            <input type="checkbox" name="mychecks" id="naan"> <label for="naan">Naan</label>
+        </div>
+        <div>
+            <input type="checkbox" name="mychecks" id="sukkey"> <label for="sukkey">Sukkey</label>
+        </div> <br>
+        
+        <div>
+            <label for="dob">D.O.B.: &nbsp;</label><input type="date" name="myDate" id="dob">
+        </div> <br>
+        <div>
+            <label for="time">Time: &nbsp;</label><input type="time" name="myTime" id="time">
+        </div> <br>
+        <div>
+            <label for="txta">Your review here:</label> <br>
+            <textarea name="txtarea" id="txta"cols="30" rows="10">
+            </textarea>
+        </div> <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Clear Form">
+            
+        </div> 
+    </form>
+</body>
+</html>
